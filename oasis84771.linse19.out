@@ -1,0 +1,2732 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+----------------- Options ---------------
+            Du_patch_size: None                          
+                EMA_decay: 0.999                         
+            add_edge_loss: False                         
+                add_edges: False                         
+             add_vgg_loss: False                         
+               batch_size: 1                             
+                    beta1: 0.0                           
+                    beta2: 0.999                         
+             bicycle_loss: 0                             
+               channels_D: 64                            
+               channels_G: 64                            
+          checkpoints_dir: ./checkpoints                 
+                ckpt_iter: best                          
+           continue_train: False                         
+                 dataroot: /data/public/cityscapes       
+             dataset_mode: cityscapes                    
+    feature_matching_type: 0                             
+                 freq_fid: 2500                          
+               freq_print: 1000                          
+           freq_save_ckpt: 20000                         
+         freq_save_latest: 10000                         
+           freq_save_loss: 2500                          
+         freq_smooth_loss: 250                           
+                  gpu_ids: 0                             
+              lambda_edge: 1                             
+          lambda_labelmix: 5.0                           
+           lambda_segment: 1                             
+               lambda_vgg: 10.0                          
+       loaded_latest_iter: 0                             	[default: None]
+                     lr_d: 0.0004                        
+                     lr_g: 0.0004                        
+             mixed_images: False                         
+        model_supervision: 2                             
+                     name: oasis_cityscapes              
+                    netDu:                               
+                     netG: 1                             
+               no_3dnoise: False                         
+                   no_EMA: False                         
+      no_balancing_inloss: False                         
+                  no_flip: False                         
+              no_labelmix: False                         
+                 no_netDu: False                         
+         no_spectral_norm: False                         
+               num_epochs: 500                           	[default: 200]
+           num_res_blocks: 6                             
+          param_free_norm: syncbatch                     
+                    phase: train                         
+      progressive_growing: False                         
+                reg_every: 4                             
+              results_dir: ./results/                    
+                     seed: 42                            
+                 spade_ks: 3                             
+           supervised_num: 50                            
+               which_iter: latest                        
+                    z_dim: 64                            
+----------------- End -------------------
+nb of gpus:  1
+5
+Created CityscapesDataset, size train: 2975, size val: 500
+--- Now computing Inception activations for real set ---
+--- Finished FID stats for real set ---
+Created ImplicitGenerator with 1536 parameters
+Created OASIS_Discriminator with 22251364 parameters
+epoch 0
+batch 0
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 0], time:0.000
+batch 1
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 1], time:3.372
+batch 2
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 2], time:1.123
+batch 3
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 3], time:0.746
+batch 4
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 4], time:0.744
+batch 5
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 5], time:0.727
+batch 6
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 6], time:0.706
+batch 7
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 7], time:0.769
+batch 8
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 8], time:0.742
+batch 9
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 9], time:0.769
+batch 10
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 10], time:0.745
+batch 11
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 11], time:0.726
+batch 12
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 12], time:0.703
+batch 13
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 13], time:0.727
+batch 14
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 14], time:0.722
+batch 15
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 15], time:0.773
+batch 16
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 16], time:0.751
+batch 17
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 17], time:0.721
+batch 18
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 18], time:0.726
+batch 19
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 19], time:0.720
+batch 20
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 20], time:0.736
+batch 21
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 21], time:0.738
+batch 22
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 22], time:0.708
+batch 23
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 23], time:0.748
+batch 24
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 24], time:0.754
+batch 25
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 25], time:0.694
+batch 26
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 26], time:0.732
+batch 27
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 27], time:0.748
+batch 28
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 28], time:0.714
+batch 29
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 29], time:0.747
+batch 30
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 30], time:0.747
+batch 31
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 31], time:0.724
+batch 32
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 32], time:0.719
+batch 33
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 33], time:0.747
+batch 34
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 34], time:0.708
+batch 35
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 35], time:0.724
+batch 36
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 36], time:0.790
+batch 37
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 37], time:0.743
+batch 38
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 38], time:0.741
+batch 39
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 39], time:0.741
+batch 40
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 40], time:0.731
+batch 41
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 41], time:0.703
+batch 42
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 42], time:0.730
+batch 43
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 43], time:0.755
+batch 44
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 44], time:0.739
+batch 45
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 45], time:0.705
+batch 46
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 46], time:0.708
+batch 47
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 47], time:0.745
+batch 48
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 48], time:0.742
+batch 49
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 49], time:0.711
+batch 50
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 50], time:0.771
+batch 51
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 51], time:0.727
+batch 52
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 52], time:0.707
+batch 53
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 53], time:0.733
+batch 54
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 54], time:0.707
+batch 55
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 55], time:0.758
+batch 56
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 56], time:0.721
+batch 57
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 57], time:0.740
+batch 58
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 58], time:0.757
+batch 59
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 59], time:0.751
+batch 60
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 60], time:0.757
+batch 61
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 61], time:0.719
+batch 62
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 62], time:0.720
+batch 63
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 63], time:0.778
+batch 64
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 64], time:0.779
+batch 65
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 65], time:0.723
+batch 66
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 66], time:0.736
+batch 67
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 67], time:0.712
+batch 68
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 68], time:0.786
+batch 69
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 69], time:0.710
+batch 70
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 70], time:0.719
+batch 71
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 71], time:0.786
+batch 72
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 72], time:0.693
+batch 73
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 73], time:0.748
+batch 74
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 74], time:0.763
+batch 75
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 75], time:0.763
+batch 76
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 76], time:0.747
+batch 77
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 77], time:0.816
+batch 78
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 78], time:0.790
+batch 79
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 79], time:0.748
+batch 80
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 80], time:0.759
+batch 81
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 81], time:0.769
+batch 82
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 82], time:0.719
+batch 83
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 83], time:0.797
+batch 84
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 84], time:0.781
+batch 85
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 85], time:0.726
+batch 86
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 86], time:0.765
+batch 87
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 87], time:0.741
+batch 88
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 88], time:0.744
+batch 89
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 89], time:0.747
+batch 90
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 90], time:0.727
+batch 91
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 91], time:0.733
+batch 92
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 92], time:0.776
+batch 93
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 93], time:0.748
+batch 94
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 94], time:0.740
+batch 95
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 95], time:0.723
+batch 96
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 96], time:0.757
+batch 97
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 97], time:0.723
+batch 98
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 98], time:0.792
+batch 99
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 99], time:0.749
+batch 100
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 100], time:0.743
+batch 101
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 101], time:0.734
+batch 102
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 102], time:0.740
+batch 103
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 103], time:0.721
+batch 104
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 104], time:0.763
+batch 105
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 105], time:0.778
+batch 106
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 106], time:0.719
+batch 107
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 107], time:0.738
+batch 108
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 108], time:0.745
+batch 109
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 109], time:0.744
+batch 110
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 110], time:0.764
+batch 111
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 111], time:0.782
+batch 112
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 112], time:0.781
+batch 113
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 113], time:0.761
+batch 114
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 114], time:0.748
+batch 115
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 115], time:0.746
+batch 116
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 116], time:0.719
+batch 117
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 117], time:0.767
+batch 118
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 118], time:0.714
+batch 119
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 119], time:0.720
+batch 120
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 120], time:0.748
+batch 121
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 121], time:0.770
+batch 122
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 122], time:0.761
+batch 123
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 123], time:0.737
+batch 124
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 124], time:0.747
+batch 125
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 125], time:0.776
+batch 126
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 126], time:0.707
+batch 127
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 127], time:0.770
+batch 128
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 128], time:0.758
+batch 129
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 129], time:0.752
+batch 130
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 130], time:0.725
+batch 131
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 131], time:0.746
+batch 132
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 132], time:0.743
+batch 133
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 133], time:0.753
+batch 134
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 134], time:0.753
+batch 135
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 135], time:0.758
+batch 136
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 136], time:0.777
+batch 137
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 137], time:0.770
+batch 138
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 138], time:0.755
+batch 139
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 139], time:0.784
+batch 140
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 140], time:0.752
+batch 141
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 141], time:0.756
+batch 142
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 142], time:0.697
+batch 143
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 143], time:0.728
+batch 144
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 144], time:0.709
+batch 145
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 145], time:0.755
+batch 146
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 146], time:0.769
+batch 147
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 147], time:0.745
+batch 148
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 148], time:0.757
+batch 149
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 149], time:0.768
+batch 150
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 150], time:0.712
+batch 151
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 151], time:0.697
+batch 152
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 152], time:0.770
+batch 153
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 153], time:0.783
+batch 154
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 154], time:0.734
+batch 155
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 155], time:0.730
+batch 156
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 156], time:0.735
+batch 157
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 157], time:0.770
+batch 158
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 158], time:0.735
+batch 159
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 159], time:0.698
+batch 160
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 160], time:0.759
+batch 161
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 161], time:0.718
+batch 162
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 162], time:0.715
+batch 163
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 163], time:0.726
+batch 164
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 164], time:0.761
+batch 165
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 165], time:0.761
+batch 166
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 166], time:0.867
+batch 167
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 167], time:0.745
+batch 168
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 168], time:0.749
+batch 169
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 169], time:0.721
+batch 170
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 170], time:0.767
+batch 171
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 171], time:0.754
+batch 172
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 172], time:0.760
+batch 173
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 173], time:0.758
+batch 174
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 174], time:0.768
+batch 175
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 175], time:0.753
+batch 176
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 176], time:0.719
+batch 177
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 177], time:0.759
+batch 178
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 178], time:0.732
+batch 179
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 179], time:0.747
+batch 180
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 180], time:0.781
+batch 181
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 181], time:0.763
+batch 182
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 182], time:0.782
+batch 183
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 183], time:0.713
+batch 184
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 184], time:0.758
+batch 185
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 185], time:0.758
+batch 186
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 186], time:0.713
+batch 187
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 187], time:0.772
+batch 188
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 188], time:0.750
+batch 189
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 189], time:0.762
+batch 190
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 190], time:0.746
+batch 191
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 191], time:0.766
+batch 192
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 192], time:0.729
+batch 193
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 193], time:0.747
+batch 194
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 194], time:0.726
+batch 195
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 195], time:0.881
+batch 196
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 196], time:0.772
+batch 197
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 197], time:0.740
+batch 198
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 198], time:0.757
+batch 199
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 199], time:0.724
+batch 200
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 200], time:0.725
+batch 201
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 201], time:0.747
+batch 202
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 202], time:0.752
+batch 203
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 203], time:0.745
+batch 204
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 204], time:0.744
+batch 205
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 205], time:0.753
+batch 206
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 206], time:0.717
+batch 207
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 207], time:0.788
+batch 208
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 208], time:0.754
+batch 209
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 209], time:0.778
+batch 210
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 210], time:0.720
+batch 211
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 211], time:0.713
+batch 212
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 212], time:0.759
+batch 213
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 213], time:0.744
+batch 214
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 214], time:0.747
+batch 215
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 215], time:0.760
+batch 216
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 216], time:0.717
+batch 217
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 217], time:0.755
+batch 218
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 218], time:0.764
+batch 219
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 219], time:0.740
+batch 220
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 220], time:0.743
+batch 221
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 221], time:0.783
+batch 222
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 222], time:0.788
+batch 223
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 223], time:0.754
+batch 224
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 224], time:0.764
+batch 225
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 225], time:0.760
+batch 226
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 226], time:0.741
+batch 227
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 227], time:0.758
+batch 228
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 228], time:0.791
+batch 229
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 229], time:0.755
+batch 230
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 230], time:0.774
+batch 231
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 231], time:0.740
+batch 232
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 232], time:0.728
+batch 233
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 233], time:0.741
+batch 234
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 234], time:0.776
+batch 235
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 235], time:0.772
+batch 236
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 236], time:0.702
+batch 237
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 237], time:0.783
+batch 238
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 238], time:0.763
+batch 239
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 239], time:0.722
+batch 240
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 240], time:0.754
+batch 241
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 241], time:0.723
+batch 242
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 242], time:0.722
+batch 243
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 243], time:0.745
+batch 244
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 244], time:0.747
+batch 245
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 245], time:0.764
+batch 246
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 246], time:0.719
+batch 247
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 247], time:0.757
+batch 248
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 248], time:0.776
+batch 249
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 249], time:0.745
+batch 250
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 250], time:0.773
+batch 251
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 251], time:0.722
+batch 252
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 252], time:0.755
+batch 253
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 253], time:0.758
+batch 254
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 254], time:0.741
+batch 255
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 255], time:0.720
+batch 256
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 256], time:0.755
+batch 257
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 257], time:0.761
+batch 258
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 258], time:0.765
+batch 259
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 259], time:0.762
+batch 260
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 260], time:0.770
+batch 261
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 261], time:0.751
+batch 262
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 262], time:0.778
+batch 263
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 263], time:0.747
+batch 264
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 264], time:0.753
+batch 265
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 265], time:0.727
+batch 266
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 266], time:0.751
+batch 267
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 267], time:0.783
+batch 268
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 268], time:0.947
+batch 269
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 269], time:0.723
+batch 270
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 270], time:0.756
+batch 271
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 271], time:0.761
+batch 272
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 272], time:0.756
+batch 273
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 273], time:0.751
+batch 274
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 274], time:0.727
+batch 275
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 275], time:0.742
+batch 276
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 276], time:0.782
+batch 277
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 277], time:0.773
+batch 278
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 278], time:0.709
+batch 279
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 279], time:0.749
+batch 280
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 280], time:0.767
+batch 281
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 281], time:0.741
+batch 282
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 282], time:0.771
+batch 283
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 283], time:0.718
+batch 284
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 284], time:0.721
+batch 285
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 285], time:0.757
+batch 286
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 286], time:0.733
+batch 287
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 287], time:0.720
+batch 288
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 288], time:0.752
+batch 289
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 289], time:0.783
+batch 290
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 290], time:0.723
+batch 291
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 291], time:0.770
+batch 292
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 292], time:0.743
+batch 293
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 293], time:0.752
+batch 294
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 294], time:0.717
+batch 295
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 295], time:0.768
+batch 296
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 296], time:0.793
+batch 297
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 297], time:0.724
+batch 298
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 298], time:0.759
+batch 299
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 299], time:0.720
+batch 300
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 300], time:0.759
+batch 301
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 301], time:0.732
+batch 302
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 302], time:0.839
+batch 303
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 303], time:0.762
+batch 304
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 304], time:0.753
+batch 305
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 305], time:0.773
+batch 306
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 306], time:0.744
+batch 307
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 307], time:0.746
+batch 308
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 308], time:0.745
+batch 309
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 309], time:0.764
+batch 310
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 310], time:0.781
+batch 311
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 311], time:0.759
+batch 312
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 312], time:0.752
+batch 313
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 313], time:0.768
+batch 314
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 314], time:0.744
+batch 315
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 315], time:0.761
+batch 316
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 316], time:0.773
+batch 317
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 317], time:0.766
+batch 318
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 318], time:0.714
+batch 319
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 319], time:0.773
+batch 320
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 320], time:0.763
+batch 321
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 321], time:0.734
+batch 322
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 322], time:0.758
+batch 323
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 323], time:0.801
+batch 324
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 324], time:0.757
+batch 325
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 325], time:0.748
+batch 326
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 326], time:0.739
+batch 327
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 327], time:0.739
+batch 328
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 328], time:0.765
+batch 329
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 329], time:0.821
+batch 330
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 330], time:0.729
+batch 331
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 331], time:0.742
+batch 332
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 332], time:0.717
+batch 333
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 333], time:0.734
+batch 334
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 334], time:0.733
+batch 335
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 335], time:0.717
+batch 336
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 336], time:0.766
+batch 337
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 337], time:0.746
+batch 338
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 338], time:0.712
+batch 339
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 339], time:0.714
+batch 340
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 340], time:0.771
+batch 341
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 341], time:0.697
+batch 342
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 342], time:0.761
+batch 343
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 343], time:0.756
+batch 344
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 344], time:0.725
+batch 345
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 345], time:0.720
+batch 346
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 346], time:0.713
+batch 347
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 347], time:0.724
+batch 348
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 348], time:0.747
+batch 349
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 349], time:0.758
+batch 350
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 350], time:0.725
+batch 351
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 351], time:0.717
+batch 352
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 352], time:0.740
+batch 353
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 353], time:0.768
+batch 354
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 354], time:0.729
+batch 355
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 355], time:0.743
+batch 356
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 356], time:0.758
+batch 357
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 357], time:0.765
+batch 358
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 358], time:0.741
+batch 359
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 359], time:0.747
+batch 360
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 360], time:0.737
+batch 361
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 361], time:0.749
+batch 362
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 362], time:0.758
+batch 363
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 363], time:0.749
+batch 364
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 364], time:0.725
+batch 365
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 365], time:0.779
+batch 366
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 366], time:0.738
+batch 367
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 367], time:0.730
+batch 368
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 368], time:0.715
+batch 369
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 369], time:0.744
+batch 370
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 370], time:0.753
+batch 371
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 371], time:0.765
+batch 372
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 372], time:0.754
+batch 373
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 373], time:0.733
+batch 374
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 374], time:0.753
+batch 375
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 375], time:0.749
+batch 376
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 376], time:0.750
+batch 377
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 377], time:0.757
+batch 378
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 378], time:0.777
+batch 379
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 379], time:0.772
+batch 380
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 380], time:0.752
+batch 381
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 381], time:0.743
+batch 382
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 382], time:0.752
+batch 383
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 383], time:0.753
+batch 384
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 384], time:0.702
+batch 385
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 385], time:0.757
+batch 386
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 386], time:0.739
+batch 387
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 387], time:0.758
+batch 388
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 388], time:0.730
+batch 389
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 389], time:0.710
+batch 390
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 390], time:0.748
+batch 391
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 391], time:0.777
+batch 392
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 392], time:0.748
+batch 393
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 393], time:0.767
+batch 394
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 394], time:0.742
+batch 395
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 395], time:0.771
+batch 396
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 396], time:0.712
+batch 397
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 397], time:0.719
+batch 398
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 398], time:0.713
+batch 399
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 399], time:0.750
+batch 400
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 400], time:0.738
+batch 401
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 401], time:0.755
+batch 402
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 402], time:0.746
+batch 403
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 403], time:0.742
+batch 404
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 404], time:0.738
+batch 405
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 405], time:0.782
+batch 406
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 406], time:0.737
+batch 407
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 407], time:0.763
+batch 408
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 408], time:0.734
+batch 409
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 409], time:0.743
+batch 410
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 410], time:0.742
+batch 411
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 411], time:0.735
+batch 412
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 412], time:0.785
+batch 413
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 413], time:0.751
+batch 414
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 414], time:0.754
+batch 415
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 415], time:0.749
+batch 416
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 416], time:0.754
+batch 417
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 417], time:0.755
+batch 418
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 418], time:0.714
+batch 419
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 419], time:0.752
+batch 420
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 420], time:0.756
+batch 421
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 421], time:0.726
+batch 422
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 422], time:0.757
+batch 423
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 423], time:0.756
+batch 424
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 424], time:0.721
+batch 425
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 425], time:0.751
+batch 426
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 426], time:0.749
+batch 427
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 427], time:0.725
+batch 428
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 428], time:0.759
+batch 429
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 429], time:0.745
+batch 430
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 430], time:0.760
+batch 431
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: torch.Size([1, 3, 256, 512])
+[epoch 0/500 - iter 431], time:0.747
+batch 432
+cuda:0
+cuda:0
+rgb size: torch.Size([1, 3, 256, 512])
+rgb size: slurmstepd: error: *** JOB 84771 ON linse19 CANCELLED AT 2022-11-15T00:25:39 ***
